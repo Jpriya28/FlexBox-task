@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  body{
+    font-family: "Ubuntu Condensed", sans-serif;
+    background-color: #fad643;
+}
+
+h1{
+  padding-top: 5px;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  margin-top: 15px;
+  padding: 15px;
+  margin-left: 20px;
+  border: 5px solid black;
+  display: inline-block;
+}
+
+p > a{
+  text-decoration: none;
+  color: #ff7aa2;
+}
+
+.container{
+  text-align: center;
+}
+
+.image__card{
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+ 
+
+}
+img{
+ padding: 10px;
+ border: 5px solid black;
+ margin: 10px;
+ flex-basis: 20%;
+ flex-grow: 1;
+}
+
